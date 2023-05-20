@@ -5,6 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/spectre.css/dist/spectre.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="bg-black text-light py-1">
+        <!-- <div class="flex justify-between">
+          Grandes ofertas en comederos
+          <div class="flex">
+            <button>Español</button>
+            <button>ARG$</button>
+          </div>
+        </div> -->
+        <div class="container grid-xl">
+          <div class="columns">
+            <div class="column">Grandes ofertas en comederos</div>
+            <div class="column col-auto columns">
+              <button class="column mx-1">Español</button>
+              <button class="column mx-1">ARG$</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="background-primary py-5">
+        <div class="container grid-2xl navbar">
+          <div class="navbar-section">
+            <a href="#" class="navbar-brand mr-2 w-270">
+              <img
+                src="./assets/images/Logo.png"
+                alt="Logo"
+                class="column col-12"
+              />
+            </a>
+          </div>
+
+          <div class="navbar-section columns">
+            <a href="#" class="btn btn-link text-light column">Categorías</a>
+            <a href="#" class="btn btn-link text-light column">Pets</a>
+            <a href="#" class="btn btn-link text-light column">Nosotros</a>
+            <a href="" class="btn btn-link text-light column">Contactanos</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="hero-section">
+          <div class="parallax">
+            <div class="parallax-top-left" tabindex="1"></div>
+            <div class="parallax-top-right" tabindex="2"></div>
+            <div class="parallax-bottom-left" tabindex="3"></div>
+            <div class="parallax-bottom-right" tabindex="4"></div>
+            <div class="parallax-content">
+              <div class="parallax-back">
+                <img
+                  src="./assets/images/BackgroundImage.png"
+                  class="img-responsive rounded"
+                  alt="Hero Image"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </header>
+  </body>
 </html>

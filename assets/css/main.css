@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*background colors*/
+.bg-black {
+  background-color: black;
+}
+
+.background-primary {
+  background-color: #f0a83e;
+}
+
+/*text colors*/
+
+.py-5 {
+  padding: 20px;
+}
+
+/*width*/
+.w-270 {
+  width: 270px;
+}
+
+/*max-width*/
+.grid-2xl {
+  max-width: 1400px;
+}
